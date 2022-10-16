@@ -16,7 +16,9 @@ print(last_update.text)
 fields = ["階数", "待ち時間"]
 rows = []
 for idx in range(3):
-    rows.append([str(idx+1) + "階", wait_times[idx].text])
+    row = [str(idx+1) + "階", wait_times[idx].text]
+    rows.append(row)
+    print(row)
 
 with open('result.csv', 'w') as f:
     write = csv.writer(f)
