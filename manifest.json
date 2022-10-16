@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "スイング碑文谷待ち時間",
+    "description": "show current waiting time at Swing Himonya",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "logo_sing-himonya.png"
+    }
+}
